@@ -1,0 +1,42 @@
+a) [master c7c8b13] =Added and changed status.txt
+ 1 file changed, 10 insertions(+)
+ create mode 100644 docs/status.txt
+
+b) 9 commits; git log
+
+c) Wed Sep 25 18:13:30 2019 -0400; git log .gitignore
+
+d) Branches are used for new features so they don't affect the main branch
+	Branches are also used to support parallel development
+
+e) Git log gives all commands run on a repository, while git status shows
+	whether files are being tracked or not 
+
+f) git log Vehicle.h
+
+g) git log --grep="file"
+
+h) I] Inheritance is when a child class gets member data
+	and functions from the parent class
+
+   II] Polymorphism is when classes share functions
+	to make the implementation of the classes easier
+   
+   III] Encapsulation is when a class is implemented to
+	not show the user the  internal workings of the
+	class, but just what they need to know
+
+i) In the Integration Manager workflow each developer 
+	pushes to a public directory and then each programmer's
+	version is checked for validity and pushed to 
+	the Blessed Repository. In the Dictator and Lieutenants
+	workflow each developer has one repository of their own
+	that gets pushed to respective branches, where it is tested
+	with some of the other's code. Then all branches get merged
+	into one, tested again, and finally pushed to the repository
+	when everything is good. 
+
+j) A large team benefits from the Dictator and Lieutenants workflow
+	because it allows for more opportunities of code 
+	verification so the Blessed Repository doesn't get
+	messed up by untested commits from the developers 
