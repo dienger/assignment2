@@ -8,7 +8,7 @@ class Skateboard : public Vehicle {
 private:
 
 public:
-    explicit Skateboard(string brand, string model, int gearCount = 1);
+    explicit Skateboard(string brand, string model);
 
     virtual ~Skateboard();
     virtual double mileageEstimate(double time);
