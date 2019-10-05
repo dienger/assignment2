@@ -40,3 +40,13 @@ j) A large team benefits from the Dictator and Lieutenants workflow
 	because it allows for more opportunities of code 
 	verification so the Blessed Repository doesn't get
 	messed up by untested commits from the developers 
+
+k) The Driving Simulator uses encapsulation to hide the
+	member data of each class, so the user can't enter
+	incorrect values into them. The Simulator also uses
+	polymorphism because it puts all the common data for
+	each vehicle into parent classes, so that there's no
+	need to redeclare member data for each class. It also
+	allows for easy access of vehicle objects because the
+	functions are overloaded for things such as printing
+	object data.
